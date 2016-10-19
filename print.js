@@ -1,14 +1,16 @@
-function print (head, sep) {
-  sep = sep || ' '
-  const values = []
-  let node = head
+'use strict'
 
-  while(node) {
-    values.push(node.val)
-    node = node.next
-  }
+function print(head, sep) {
+    sep = sep || ' '
+    const values = []
+    let node = head
 
-  console.log(values.join(sep))
+    while (node) {
+        values.push(node.val)
+        node = node.next
+    }
+
+    console.log(values.join(sep))
 }
 
 module.exports = print
