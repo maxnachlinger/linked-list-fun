@@ -1,0 +1,14 @@
+{
+  "name": "linked-list-fun",
+  "version": "1.0.0",
+  "description": "",
+  "main": "insert.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tape": "^4.6.2"
+  }
+}
