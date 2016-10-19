@@ -28,7 +28,6 @@ function insertAfterValue(head, val, afterValue) {
         current = current.next
     }
 
-    current.next = {val, next: current.next}
     return head
 }
 
